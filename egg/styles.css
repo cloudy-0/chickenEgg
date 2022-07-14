@@ -1,0 +1,30 @@
+* {box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+display:flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;   
+height: 100vh;
+}
+
+
+.images {
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.chicken {display: none;}
+.nest{display: none;}
+.eggnest {display: none;}
+.egg {display: none;}
+.hatch {display: none;}
+.chick {display: none;}
+
+
+.active {display: block;}
